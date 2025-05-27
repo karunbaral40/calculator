@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 5px;
+}
+button{
+    padding: 30px;
+    color: #f0f8ff;
+    background-color: #181829;
+    font-size: 20px;
+    border: none;
+}
+button:hover{
+    background-color: #1e1e3f;
+}
+.display{
+    width: 100%;
+    height: 100px;
+    gap: 10px;
+    background-color: #aaefef;
+    font-size: 50px;
+
+}
